@@ -1,0 +1,53 @@
+def add(n1,n2):
+  res=n1+ n2
+  return res
+  
+def subtract(n1,n2):
+  res=n1-n2
+  return res 
+   
+def multiply(n1,n2):
+  res=n1*n2
+  return res
+  
+def divide (n1,n2):
+  if n1==0:
+    res= 0
+    return res
+  elif n2==0:
+    res = "invalid"
+    return res
+  else:
+    res=n1/n2
+    return res
+
+
+
+def cal():
+  num1=int(input("Enter Number 1:\n"))
+  opp=input("Select appropriate operator\n+\n-\n/\n*\n")
+  num2=int(input("Enter Number 2:\n"))
+  print(num1, opp, num2)
+  if opp=='+':
+   print(add(num1,num2))
+  elif opp=='-':
+   print(divide(num1,num2))
+  elif opp=='*':
+   print(multiply(num1,num2))
+  elif opp=='/':
+   print(divide (num1,num2))
+  else:
+   print("INVALID OPERATION")
+
+
+x=True    
+while x:
+ print("WELCOME TO CALCULATOR\n")
+ cal()
+ print("DO U WISH TO CONTINUE -T OR F")
+ y=input()
+ if y=='F':
+   print("END OF CALCULATOR")
+ else:
+   cal()
+   x=False
