@@ -1,0 +1,22 @@
+bill =0
+x=input("ENTER YOUR ORDER\n S- SMALL ,M-MEDIUM,L-LARGE PIZZA\n (ENTER A LETTER FOR YOUR PIZZA ORDER)")
+if x == 'S':
+  bill= bill+15
+elif x== 'M':
+  bill=bill+20
+elif x=='L':
+  bill=bill+25
+y = input("DO YOU WANT A PEPPERONI\n ENTER Y-YES AND N-NO\n")
+if y =='Y':
+  z=input("Enter the size of serving- S, M and L")
+  if z== 'S':
+    bill=bill+2
+  elif z== 'M':
+    bill=bill+3
+  elif z=='L':
+   bill=bill+3
+
+
+
+print("TOTAL BILL=",bill)
+  
