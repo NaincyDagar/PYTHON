@@ -1,0 +1,16 @@
+s_s={"joe":95,
+     "benny":83,
+     "sia":76,
+     "lola":62}
+new_s={}
+for i in s_s:
+  mark=s_s[i]
+  if mark>91:
+    new_s[i]="outstanding"
+  elif mark >81:
+    new_s[i]="Exceeds Expectations"
+  elif mark>71:
+    new_s[i]="Acceptable"
+  else:
+    new_s[i]="fail"
+print(new_s)
