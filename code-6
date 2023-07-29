@@ -1,0 +1,21 @@
+n1=input("enter your name in caps (4 letters)")
+sum=0
+rum=0
+if n1[0]=='T'or n1[0]=='R'or n1[0]=='U' or n1[0]=='E' :
+  sum=sum+1
+if n1[1]=='T'or n1[1]=='R'or n1[1]=='U' or n1[1]=='E' :
+  sum=sum=1
+if n1[2]=='T'or n1[2]=='R'or n1[2]=='U' or n1[2]=='E' :
+  sum=sum+1
+if n1[3]=='T'or n1[3]=='R'or n1[3]=='U' or n1[3]=='E' :
+  sum=sum+1
+if n1[0]=='L'or n1[0]=='O'or n1[0]=='V' or n1[0]=='E' :
+  rum=rum+1
+if n1[1]=='L'or n1[1]=='O'or n1[1]=='V' or n1[1]=='E' :
+  rum=rum=1
+if n1[2]=='L'or n1[2]=='O'or n1[2]=='V' or n1[2]=='E' :
+  rum=rum+1
+if n1[3]=='L'or n1[3]=='O'or n1[3]=='V' or n1[3]=='E' :
+  sum=sum+1
+z=sum+rum
+print(z,"%")
