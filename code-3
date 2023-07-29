@@ -1,0 +1,11 @@
+list1=[]
+temp=0
+num = int(input("Enter the number of elements:"))
+for i in range(0,num):
+  n=int(input())
+  list1.append(n)
+print("list =",list1)
+for i in list1:
+ if i> temp:
+  temp=i
+print("maximum=",temp)
