@@ -1,0 +1,11 @@
+def name(num1,num2):
+  x=num1.title()
+  y=num2.title()
+  print("x:",x)
+  print("Y:",y)
+  return x+" "+y
+
+n1=input("enter your first name")
+n2=input("enter your last name")
+res=name(n1,n2)
+print(f"result:{res}")
