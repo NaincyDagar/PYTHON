@@ -1,0 +1,6 @@
+sth = [180, 124, 165, 173, 189, 169, 146]
+sum=0
+x= sth[0]+sth[1]+ sth[2]+ sth[3]+ sth[4] +sth[5]+ sth[6] 
+y=len(sth)
+avg=x/y
+print(avg)
